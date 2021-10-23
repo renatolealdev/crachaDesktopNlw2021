@@ -6,6 +6,12 @@ html,
 body {
   height: 100%;
   background: rgb(22, 22, 22);
+  background: linear-gradient(
+    180deg,
+    rgba(22, 22, 22, 1) 0%,
+    rgba(35, 35, 35, 1) 50%,
+    rgba(45, 45, 45, 1) 100%
+  );
 }
 
 body {
