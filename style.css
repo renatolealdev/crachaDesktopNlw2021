@@ -31,8 +31,8 @@ main {
   background-image: url(images/cardBlack.svg);
   height: 100%;
   min-height: 680px;
-  width: 358px;
-  min-width: 358px;
+  width: 375px;
+  min-width: 375px;
 }
 
 .container {
@@ -102,6 +102,14 @@ ul {
   justify-content: center;
 }
 
-#contagem {
+li a {
+  transition: 0.1s;
+}
+
+li a:hover {
+  transform: translateY(-5px);
+}
+
+#counterH3 {
   margin-top: 1.5rem;
 }
