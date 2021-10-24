@@ -1,10 +1,10 @@
 <svg width="1440" height="820" viewBox="0 0 1440 820" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip0_)">
 <g filter="url(#filter0_d_)">
-<rect x="541" y="140" width="358" height="640" fill="#242424"/>
+<rect x="541" y="140" width="358" height="650" fill="#242424"/>
 </g>
-<mask id="mask0_" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="541" y="140" width="358" height="600">
-<rect x="541" y="140" width="358" height="640" fill="#202024"/>
+<mask id="mask0_" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="541" y="140" width="358" height="650">
+<rect x="541" y="140" width="358" height="650" fill="#202024"/>
 </mask>
 <g mask="url(#mask0_)">
 <path d="M899 208.325V-300.916L719.5 -415.556L540 -300.916V208.325L719.5 322.972L899 208.325Z" fill="#09090A"/>
