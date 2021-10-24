@@ -59,7 +59,7 @@ main {
   z-index: 1;
 }
 
-.avatar #fotoPessoal {
+.avatar #userImage {
   width: 10rem;
   height: 11.5rem;
   object-fit: cover;
@@ -86,7 +86,7 @@ a {
   justify-content: center;
 }
 
-#presentationText {
+#userBio {
   color: var(--greyLeal);
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -106,7 +106,7 @@ ul {
 }
 
 li a {
-  transition: 0.1s;
+  transition: 0.2s;
 }
 
 li a:hover {

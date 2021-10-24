@@ -2,77 +2,68 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Renato Leal • DoWhile 2021 • Rocketseat</title>
-  <script src="counter.js" defer></script>
-  <script src="index.js" defer></script>
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
   <main>
     <div class="container">
-
       <div class="avatar">
-
         <span>
-          <img src="images/svgBuild.svg" alt="Selo Rocketseat">
+          <img src="images/svgBuild.svg" alt="Selo Rocketseat" />
         </span>
 
-        <img id="fotoPessoal" src="images/pngFotoPessoalRenato.png" alt="Foto Pessoal">
-
+        <img id="userImage" src="images/pngFotoPessoalRenato.png" alt="Foto Pessoal" />
       </div>
 
-      <h1>Renato Leal</h1>
-      <a href="https://github.com/renatolealdev">
-        <img src="images/svgGithubIcon.svg" alt="Ícone do GitHub" />renatoleal
+      <h1 id="userName">Renato</h1>
+      <a id="userLink" href="https://github.com/renato" target="_blank">
+        <img src="images/svgGithubIcon.svg" alt="Ícone do GitHub" />
+        <span id="userLogin">renatpddd</span>
       </a>
 
-      <p id="presentationText">
-        Majoring in Computer Engineering || Full-Stack Developer: HTML•CSS•JS•NodeJS || Mobile Developer: Flutter.
+      <p id="userBio">
+        Majoring in Computer Engineering || Full-Stack Developer:
+        HTML•CSS•JS•NodeJS || Mobile Developer: Flutter.
       </p>
 
-      <ul>
-
-        <li>
+      <ul id="socialLinks">
+        <li class="youtube">
           <a href="https://www.youtube.com/channel/UCCKK7LqXZk0Vb8xWnArBgdA" target="_blank">
-            <img src="images/svgYoutubeIcon.svg" alt="Ícone do Youtube">
+            <img src="images/svgYoutubeIcon.svg" alt="Ícone do Youtube" />
           </a>
         </li>
 
-        <li>
+        <li class="instagram">
           <a href="https://www.instagram.com/renatolealdev/" target="_blank">
-            <img src="images/svgInstagramIcon.svg" alt="Ícone do Instagram">
+            <img src="images/svgInstagramIcon.svg" alt="Ícone do Instagram" />
           </a>
         </li>
 
-        <li>
+        <li class="facebook">
           <a href="https://www.facebook.com/renatolealdev" target="_blank">
-            <img src="images/svgFacebookIcon.svg" alt="Ícone do Facebook">
+            <img src="images/svgFacebookIcon.svg" alt="Ícone do Facebook" />
           </a>
         </li>
 
-        <li>
+        <li class="twitter">
           <a href="https://twitter.com/renatolealdev" target="_blank">
-            <img src="images/svgTwitterIcon.svg" alt="Ícone do Twitter">
+            <img src="images/svgTwitterIcon.svg" alt="Ícone do Twitter" />
           </a>
         </li>
-
       </ul>
 
-      <h3 id="titleCounter">
-        Restam:
-      </h3>
+      <h3 id="titleCounter">Restam:</h3>
 
       <div id="counterDiv">
-
         <ul id="daysHoursMinutesSeconds">
-
           <li id="days"></li>
           <li class="dHMS">Dias,</li>
           <li id="hours"></li>
@@ -81,19 +72,14 @@
           <li class="dHMS">Minutos,</li>
           <li id="seconds"></li>
           <li class="dHMS">Segundos.</li>
-
         </ul>
-
       </div>
 
-      <h4 id="forDoWhile">
-        para o DoWhile 2021!
-      </h4>
-
+      <h4 id="forDoWhile">para o DoWhile 2021!</h4>
     </div>
-
   </main>
-
+  <script src="main.js"></script>
+  <script src="counter.js"></script>
 </body>
 
 </html>
